@@ -3,4 +3,4 @@ from flask import render_template
 
 class index (MethodView):
         def get(self):
-                return render_template("index.html")
+                return render_template("principal.html")
