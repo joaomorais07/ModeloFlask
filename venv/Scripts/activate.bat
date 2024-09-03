@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Joaom\Area de Trabalho\Meus Scripts\teste\venv
+set VIRTUAL_ENV=C:\Users\Joaom\OneDrive\Área de Trabalho\Meus Scripts\Testar rota efi\ModeloFlask\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
