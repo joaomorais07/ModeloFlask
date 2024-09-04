@@ -28,6 +28,7 @@ def imprimirPix():
 
 if __name__ == "__main__":
     context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+    context.verify_mode = ssl.CERT_REQUIRED
     context.load_verify_locations('src/certificates/certificate-chain-prod.crt')
     context.load_cert_chain('src/certificates/certificate.crt', 'src/certificates/private.key')
     app.run(ssl_context=context, host='0.0.0.0')
